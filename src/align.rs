@@ -373,7 +373,7 @@ pub fn semi_global_qx_alignment_stats(
 }
 
 /// For isOnClust-rust
-pub fn semi_global_alignment_trace_scan_sat_cigar(
+/*pub fn semi_global_alignment_trace_scan_sat_cigar(
     query_sequence: &[u8],
     database_sequence: &[u8],
     open_cost: i32,
@@ -462,7 +462,7 @@ pub fn semi_global_alignment_trace_scan_sat_cigar(
         }
     }
     
-}
+}*/
 
 /// Provides traceback for semi-global pairwise alignment using a vectorized algorithm. Does not penalize gaps at beginning and end of s2/reference only
 pub fn semi_global_dx_traceback(
