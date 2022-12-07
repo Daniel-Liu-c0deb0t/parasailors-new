@@ -13,4 +13,4 @@ edition = "2018"
 [dependencies]
 libc = "0.2.7"
 # parasail-sys = "0.2.5"
-parasail-sys = { path = "../parasail-sys" }
+parasail-sys = { git = "https://github.com/andrewprivate/parasail-sys" }
